@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#chocolates-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.chocolate {
+  display: flex;
+  align-items: center;
+}
+
+.chocolate input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#total-price {
+  color: green;
+}
